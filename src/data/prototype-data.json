@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "project": "Universal Enterprises frontend prototype",
+    "demoOnly": true,
+    "notice": "All commercial and fitment values in this file are prototype data unless explicitly marked confirmedAnchor."
+  },
+  "brands": [
+    {
+      "name": "Bajaj",
+      "confirmedAnchor": true,
+      "models": [
+        "Pulsar N160",
+        "Pulsar 150 ABS",
+        "Discover 125 Disc"
+      ]
+    },
+    {
+      "name": "TVS",
+      "confirmedAnchor": true,
+      "models": [
+        "Apache RTR 160 4V",
+        "Raider",
+        "Ronin"
+      ]
+    },
+    {
+      "name": "Hero",
+      "confirmedAnchor": true,
+      "models": [
+        "Splendor+",
+        "Hunk 150R",
+        "Xtreme 160R 4V"
+      ]
+    },
+    {
+      "name": "Royal Enfield",
+      "confirmedAnchor": true,
+      "models": [
+        "Hunter 350",
+        "Classic 350"
+      ]
+    },
+    {
+      "name": "Honda",
+      "confirmedAnchor": true,
+      "models": [
+        "SP 125",
+        "CBR 150R",
+        "Hornet 2.0"
+      ]
+    },
+    {
+      "name": "Yamaha",
+      "confirmedAnchor": true,
+      "models": [
+        "R15 V4",
+        "MT-15 V2",
+        "FZS V4"
+      ]
+    },
+    {
+      "name": "Suzuki",
+      "confirmedAnchor": true,
+      "models": [
+        "Gixxer",
+        "Gixxer SF 250",
+        "GSX-R150"
+      ]
+    }
+  ],
+  "categories": [
+    "Engine & Transmission System",
+    "Braking System",
+    "Electrical System",
+    "Suspension & Frame",
+    "Exhaust System",
+    "Wheels & Tires",
+    "Bodywork & Fairings",
+    "Drive System",
+    "Lighting System",
+    "Filters & Consumables"
+  ],
+  "demoBikes": [
+    {
+      "id": "bike-demo-1",
+      "brand": "Yamaha",
+      "model": "R15 V4",
+      "year": "2024",
+      "cc": "155",
+      "variant": "Standard",
+      "demoOnly": true
+    },
+    {
+      "id": "bike-demo-2",
+      "brand": "Bajaj",
+      "model": "Pulsar N160",
+      "year": "2025",
+      "cc": "160",
+      "variant": "Dual Channel ABS",
+      "demoOnly": true
+    }
+  ],
+  "products": [
+    {
+      "id": "ue-demo-001",
+      "slug": "performance-brake-pad-set",
+      "name_en": "Performance Brake Pad Set",
+      "name_bn": null,
+      "brand": "Yamaha",
+      "category": "Braking System",
+      "product_type": "Braking",
+      "sku": "DEMO-SKU-001",
+      "part_number": "DEMO-PN-1001",
+      "oem_number": "DEMO-OEM-2001",
+      "regular_price": 1250,
+      "sale_price": 990,
+      "currency": "BDT",
+      "stock_status": "in_stock",
+      "stock_qty": 13,
+      "image": "/placeholders/mechanical-part.svg",
+      "gallery": [],
+      "short_description": "Prototype-only sample product used to demonstrate the storefront UI.",
+      "specifications": {
+        "Material": "Demo value",
+        "Position": "Demo value"
+      },
+      "warranty": "Demo / TBD",
+      "rating_demo": 4.2,
+      "reviews_count_demo": 4,
+      "fitment_state_demo": "confirmed_fit",
+      "fitments_demo": [],
+      "universal_fit_demo": false,
+      "demoOnly": true
+    },
+    {
+      "id": "ue-demo-002",
+      "slug": "front-disc-rotor",
+      "name_en": "Front Disc Rotor",
+      "name_bn": null,
+      "brand": "Bajaj",
+      "category": "Braking System",
+      "product_type": "Braking",
+      "sku": "DEMO-SKU-002",
+      "part_number": "DEMO-PN-1002",
+      "oem_number": "DEMO-OEM-2002",
+      "regular_price": 2850,
+      "sale_price": null,
+      "currency": "BDT",
+      "stock_status": "low_stock",
+      "stock_qty": 12,
+      "image": "/placeholders/mechanical-part.svg",
+      "gallery": [],
+      "short_description": "Prototype-only sample product used to demonstrate the storefront UI.",
+      "specifications": {
+        "Material": "Demo value",
+        "Position": "Demo value"
+      },
+      "warranty": "Demo / TBD",
+      "rating_demo": 4.3,
+      "reviews_count_demo": 5,
+      "fitment_state_demo": "check_fitment",
+      "fitments_demo": [],
+      "universal_fit_demo": false,
+      "demoOnly": true
+    },
+    {
+      "id": "ue-demo-003",
+      "slug": "oil-filter-element",
+      "name_en": "Oil Filter Element",
+      "name_bn": null,
+      "brand": "Honda",
+      "category": "Filters & Consumables",
+      "product_type": "Filters",
+      "sku": "DEMO-SKU-003",
+      "part_number": "DEMO-PN-1003",
+      "oem_number": "DEMO-OEM-2003",
+      "regular_price": 450,
+      "sale_price": null,
+      "currency": "BDT",
+      "stock_status": "in_stock",
+      "stock_qty": 11,
+      "image": "/placeholders/mechanical-part.svg",
+      "gallery": [],
+      "short_description": "Prototype-only sample product used to demonstrate the storefront UI.",
+      "specifications": {
+        "Material": "Demo value",
+        "Position": "Demo value"
+      },
+      "warranty": "Demo / TBD",
+      "rating_demo": 4.4,
+      "reviews_count_demo": 6,
+      "fitment_state_demo": "multi_model_fit",
+      "fitments_demo": [],
+      "universal_fit_demo": false,
+      "demoOnly": true
+    }
+  ],
+  "locations": {
+    "Dhaka": {
+      "districts": {
+        "Dhaka": ["Dhanmondi", "Gulshan", "Mirpur", "Uttara", "Motijheel", "Mohammadpur"],
+        "Gazipur": ["Gazipur Sadar", "Tongi", "Kaliakair", "Kapasia"],
+        "Narayanganj": ["Narayanganj Sadar", "Sonargaon", "Rupganj"]
+      }
+    },
+    "Chattogram": {
+      "districts": {
+        "Chattogram": ["Kotwali", "Pahartali", "Panchlaish", "Double Mooring"],
+        "Coxs Bazar": ["Coxs Bazar Sadar", "Ramu", "Teknaf"]
+      }
+    },
+    "Sylhet": {
+      "districts": {
+        "Sylhet": ["Sylhet Sadar", "South Surma", "Bishwanath"],
+        "Habiganj": ["Habiganj Sadar", "Nabiganj"]
+      }
+    }
+  }
+}
